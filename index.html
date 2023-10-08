@@ -1,0 +1,479 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechDrive</title>
+
+    <link rel="shortcut icon" href="./assets/images/clipart1844855.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  </head>
+
+
+  <body>
+    <!--Navbar-->
+
+    <header>
+ 
+          <a href="#" class="logo"><img src="./assets/images/clipart1844855.png" alt="">
+
+            <span id="txtmouseover">TechDrive</span>
+
+          </a>  
+
+      <div class="navbar_link">
+            <ul class="navbar">
+                  <li><a href="#">Home</a></li>
+
+                  <li><a href="#Services">Services</a></li>
+
+                  <li><a href="#About">About</a></li>
+
+                  <li><a href="#Blog">Blog</a></li>
+
+                  <li><a href="#contact">contact</a></li>
+
+            </ul>
+      </div>
+
+      <div class="search-bar">
+        
+          <input id="search-bar" type="text" placeholder="Search">
+
+          <button id="submit" type="submit" >
+            <i class='bx bx-search-alt'></i>
+          </button>
+
+      </div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+    </header>
+
+    <!--Home section-->
+    <section class="home" id="home">
+
+      <div class="home-txt" style="margin: 15px 0 15px;" >
+
+            <span id="scroll-up-bottom-element">We are Creative</span>
+
+              <h1>Creative Digital Agency</h1>
+
+                <h2 ><q>Unlocking Digital Potential for Your Brand</q><br>
+
+              <q>Creative Solutions for a Digital World</q></h2>
+
+            <div class="buttons">
+
+              <li>
+                  <a href="#" class="btn rm">read more</a>
+              </li>
+
+              <li>
+                  <a href="#" class="btn">request&#38;contact</a>
+              </li>
+     
+            </div>
+
+      </div>
+
+
+
+      <div class="home-img">
+
+        <div class="image-container">
+
+            <figure class="img-holder">
+
+                <img class="img-cover" src="./assets/images/6222537.jpg" alt="">
+                <p><q>In a world of bytes and bits, we're your digital codebreakers.</q></p>
+            </figure>
+
+            <figure class="img-holder">
+
+                <img class="img-cover" src="./assets/images/5096437.jpg" alt="">
+                <p><q>Unlock the full potential of your business with our digital expertise</q></p>
+
+            </figure>
+
+            <figure class="img-holder">
+
+                <img class="img-cover" src="./assets/images/5100570.jpg" alt="">
+                <p><q>Our passion is your digital prosperity.</q></p>
+
+            </figure>
+
+          <figure class="img-holder">
+
+              <img class="img-cover" src="./assets/images/5113470.jpg" alt="">
+              <p><q>Data is the new gold, and we're here to help you mine it.</q></p>
+
+          </figure>
+
+       </div>
+
+        
+
+      </div>
+      
+
+    </section>
+
+
+
+        <!--services section-->
+    <section class="features" id="Services">
+
+      <div class="heading">
+
+          <span>what we do?</span>
+
+          <h2>
+            The service we offer is specifically designed to meet your needs.
+          </h2>
+
+          <div class="service-card-container">
+
+              <div class="service-card">
+              
+                  <img id="your-svg-image" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xMi42NjYgMjIuOTA4bC0yLjc4Ny01LjM3OS0xLjYzNC44Yy0xLjc3My44Ni01LjM4My02LjE5MS0zLjY0OS03LjEybDEuNjQ4LS44MTItMi43NjQtNS4zOTctMS42NjcuODIzYy01LjcwMiAyLjk3MiAzLjM1MSAyMC41NjkgOS4xODMgMTcuOTAzLjA5Ni0uMDQzIDEuNjY0LS44MTUgMS42Ny0uODE4em00LjkwMi0yLjYwM2wxLjA0MSAxLjcxYy0xLjAxOS42NzQtMi4xNDcgMS4xOTctMy4zNTEgMS41MzdsLS45MzQtMS44MjRjMS4xNzUtLjI4IDIuMjctLjc2OCAzLjI0NC0xLjQyM3ptMi45MjItMy4wMjJsMS44ODIuNzUyYy0uNjc4IDEuMTYyLTEuNTQ2IDIuMTk5LTIuNTYgMy4wNzFsLTEuMDU3LTEuNzM2Yy42NjgtLjYxMiAxLjI1My0xLjMxNSAxLjczNS0yLjA4N3ptLjY5OS0xLjMzNmMuNTIyLTEuMjExLjgxMS0yLjU0Ni44MTEtMy45NDcgMC01LjUxOS00LjQ4MS0xMC0xMC0xMC0yLjQ5NyAwLTQuNzgxLjkxNy02LjUzNCAyLjQzMmwtLjkzMy0xLjgyNGMyLjA1LTEuNjMyIDQuNjQ1LTIuNjA4IDcuNDY3LTIuNjA4IDYuNjIzIDAgMTIgNS4zNzcgMTIgMTIgMCAxLjY2NC0uMzQgMy4yNDktLjk1MyA0LjY5bC0xLjg1OC0uNzQzem0tMy41MTEtLjk0N2gtMS40Mzh2LTEuNTVoLTIuODh2LS45ODlsMi40Ni0zLjk2aDEuODU4djMuODFoLjc4djEuMTM5aC0uNzh2MS41NXptLTUuMDcgMGgtNC42MDh2LS45MTlsLjg0LS43NmMxLjQyLTEuMjcgMi4xMS0yIDIuMTMtMi43NjEgMC0uNTMtLjMyLS45NS0xLjA3LS45NS0uNTYgMC0xLjA1LjI4LTEuMzkuNTRsLS40My0xLjA4OWMuNDktLjM3IDEuMjUtLjY3IDIuMTMtLjY3IDEuNDY5IDAgMi4yNzguODU5IDIuMjc4IDIuMDM5IDAgMS4wOTEtLjc4OSAxLjk2MS0xLjcyOCAyLjgwMWwtLjYuNXYuMDJoMi40NDh2MS4yNDl6bTMuNjMyLTIuNjg5di0xLjQ0YzAtLjM5MS4wMi0uNzkxLjA1LTEuMjExaC0uMDRjLS4yMS40Mi0uMzguOC0uNiAxLjIxMWwtLjg3IDEuNDJ2LjAyaDEuNDZ6Ii8+PC9zdmc+">
+
+                      <h2>24/7 Support</h2>
+
+                    <p>Your satisfaction is our top priority. We're here to listen, assist, and guide you every step of the way. Your success is our success.</p>
+
+                    <li>
+
+                      <a href="#" class="btn">Learn More</a>
+
+                    </li>
+
+              </div>
+
+
+            <div class="service-card">
+
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMi42NDRjMi45NjUgMi4yMzggNi40NTcgMy4wMDQgOC45MTIgMy4yNS0uNjU4IDcuMDUyLTQuODkyIDEyLjU5My04LjkxMiAxNS42NTUtNC4wMjEtMy4wNjItOC4yNTUtOC42MDMtOC45MTItMTUuNjU2IDIuNDU0LS4yNDUgNS45NDctMS4wMTEgOC45MTItMy4yNDl6bTAtMi42NDRjLTIuOTk2IDIuOTk1LTcuNDg2IDQtMTEgNCAwIDguNTgzIDUuMDY3IDE2LjA5NyAxMSAyMCA1LjkzMi0zLjkwMyAxMS0xMS40MTcgMTEtMjAtMy41MTUgMC04LjAwNi0xLjAwNS0xMS00em0zLjc5NCA4bC00LjM4MSA0LjQ3NS0yLjIxNS0yLjEyMy0xLjIzNyAxLjIzOSAzLjQ1MiAzLjM2MiA1LjYxOS01LjcxNS0xLjIzOC0xLjIzOHoiLz48L3N2Zz4=">
+
+                  <h2>Secure Payments</h2>
+
+                    <p>Your satisfaction is our top priority. We're here to listen, assist, and guide you every step of the way. Your success is our success.</p>
+
+                  <li>
+
+                      <a href="#" class="btn">Learn More</a>
+
+                  </li>
+
+            </div>
+
+            <div class="service-card">
+
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTUuNDA4IDIxaC05LjkwOGMtMy4wMzcgMC01LjUtMi40NjMtNS41LTUuNSAwLTIuNzAyIDEuOTUxLTQuOTQ1IDQuNTIxLTUuNDA4LjIxMi0zLjk1MSAzLjQ3My03LjA5MiA3LjQ3OS03LjA5MiAzLjI2NyAwIDYuMDM3IDIuMDg5IDcuMDYzIDUuMDAzbC0uMDYzLS4wMDNjLS42ODEgMC0xLjMzNi4xMDItMS45NTguMjgzLS44NzgtMi4wMjUtMi43My0zLjI4My01LjA0Mi0zLjI4My0zLjM1OSAwLTUuNzM0IDIuNTYyLTUuNTY3IDYuNzgtMS45NTQtLjExMy00LjQzMy45MjMtNC40MzMgMy43MiAwIDEuOTMgMS41NyAzLjUgMy41IDMuNWg3Ljc2Yy41NjYuODEgMS4zIDEuNDkgMi4xNDggMnptMi4yNTctOC42NjljLjQwMi0uMjA2Ljg1Mi0uMzMxIDEuMzM1LS4zMzEgMS40NTUgMCAyLjY3IDEuMDQyIDIuOTQxIDIuNDE4bDEuOTYtLjM5OGMtLjQ1Ni0yLjI5MS0yLjQ3NS00LjAyLTQuOTAxLTQuMDItLjk1NyAwLTEuODQ1LjI3OC0yLjYwNC43NDVsLTEuMzk2LTEuNzQ1LTEgNWg1bC0xLjMzNS0xLjY2OXptNS4zMzUgOC42NjlsLTEuMzk2LTEuNzQ1Yy0uNzU5LjQ2Ny0xLjY0Ny43NDUtMi42MDQuNzQ1LTIuNDI2IDAtNC40NDUtMS43MjktNC45MDEtNC4wMmwxLjk2LS4zOThjLjI3MSAxLjM3NiAxLjQ4NiAyLjQxOCAyLjk0MSAyLjQxOC40ODMgMCAuOTMzLS4xMjUgMS4zMzUtLjMzMWwtMS4zMzUtMS42NjloNWwtMSA1eiIvPjwvc3ZnPg==">
+
+                <h2>Daily Updates</h2>
+
+                  <p>Your satisfaction is our top priority. We're here to listen, assist, and guide you every step of the way. Your success is our success.</p>
+
+                <li>
+
+                  <a href="#" class="btn">Learn More</a>
+
+                </li>
+
+            </div>
+
+            <div class="service-card">
+
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xOC4zMDUgMjAuNDE4Yy0uOTkyLjYxNS0yLjE2Ljk3LTMuNDExLjk3LTMuNTg4IDAtNi41LTIuOTE5LTYuNS02LjUxNHMyLjkxMi02LjUxMyA2LjUtNi41MTNjMy41ODcgMCA2LjUgMi45MTggNi41IDYuNTEzIDAgMS4yNTQtLjM1NCAyLjQyNS0uOTY3IDMuNDE5bDMuNTczIDMuNTgtMi4xMjEgMi4xMjYtMy41NzQtMy41ODF6bS04LjkwNC0uNDM2Yy0zLjIxNi0uMTktNi4wMjUtMS45MDMtNy43MTYtNC40MjdsNC4zNDktMi41MTFjLjM4LjQ5My44NDkuOTE0IDEuMzgzIDEuMjM3LS4wMTUuMTk3LS4wMjMuMzk2LS4wMjMuNTk2IDAgMS45NzIuNzYyIDMuNzY2IDIuMDA3IDUuMTA1em01LjQ5My05LjU5MmMyLjQ4NCAwIDQuNSAyLjAyIDQuNSA0LjUwOSAwIDIuNDg5LTIuMDE2IDQuNTA5LTQuNSA0LjUwOXMtNC41LTIuMDItNC41LTQuNTA5YzAtMi40ODkgMi4wMTYtNC41MDkgNC41LTQuNTA5em0tMS41IDYuOTg5aC0xdi0yLjAwNGgxdjIuMDA0em0yIDBoLTF2LTMuMDA2aDF2My4wMDZ6bTIgMGgtMXYtNC45NmgxdjQuOTZ6bS03Ljg5NC0xNy4zNjd2NS4wMTNjLTIuNTI1LjI1MS00LjUgMi4zODQtNC41IDQuOTc1IDAgLjc4Ny4xODIgMS41MzEuNTA3IDIuMTk0bC00LjMzNiAyLjUwM2MtLjc0Ny0xLjQwMS0xLjE3MS0zLTEuMTcxLTQuNjk3IDAtNS4zNTEgNC4yMTMtOS43MjcgOS41LTkuOTg4em00Ljc3MiA3LjM5MWMtLjc5Ni0xLjMwNi0yLjE3NC0yLjIxOS0zLjc3Mi0yLjM3OHYtNS4wMTNjNS4wNzcuMjUxIDkuMTY0IDQuMjk2IDkuNDggOS4zNTYtMS4zMzctMS4yMzYtMy4xMjQtMS45OTEtNS4wODYtMS45OTEtLjIwOSAwLS40MTcuMDA5LS42MjIuMDI2eiIvPjwvc3ZnPg==">
+
+                <h2>Market Research</h2>
+
+                  <p>Your satisfaction is our top priority. We're here to listen, assist, and guide you every step of the way. Your success is our success.</p>
+
+                <li>
+
+                  <a href="#" class="btn">Learn More</a>
+
+                </li>
+                
+            </div>
+
+          </div>
+
+      </div>
+
+
+    </section>
+
+
+    <!-- About section-->
+    <section class="About" id="About">
+
+      <div class="heading">
+
+        <span>WHY CHOOSE US?</span>
+
+        <h2>
+          We bring solutions to make life easier for our clients.
+        </h2>
+
+      </div>
+
+    
+      <div class="container">
+
+        <div class="About1-img">
+
+          <img src="./assets/images/5484597.jpg" alt="">
+
+        </div>
+
+        <div class="About1-text">
+
+          <h2>We bring solutions</h2>
+
+          <p>We believe in personalized service. Our dedicated team works closely with each client to understand their unique needs and deliver solutions that fit like a glove.</p>
+
+          <p>With years of industry experience, our experts bring a wealth of knowledge to the table. You can rely on us to provide you with the most reliable and up-to-date solutions.</p>
+
+          <p>We pride ourselves on being at the forefront of innovation. Our commitment to staying current with the latest trends and technologies ensures that you always receive cutting-edge solutions.</p>
+
+          
+       
+          <li>
+
+            <a href="#" class="btn">Learn More</a>
+
+          </li>
+
+        </div>
+
+      </div>
+        
+    </section>
+  
+
+ <!-- About section-->
+ <section class="About2" id="About2">
+
+    <div class="heading">
+
+      <span>WHY CHOOSE US?</span>
+
+        <h2>
+          We bring solutions to make life easier for our clients.
+        </h2>
+
+    </div>
+
+
+  <div class="container">
+
+        <div class="About2-text">
+
+          <h2>We bring solutions</h2>
+
+
+          <p>We believe in personalized service. Our dedicated team works closely with each client to understand their unique needs and deliver solutions that fit like a glove.</p>
+
+          <p>With years of industry experience, our experts bring a wealth of knowledge to the table. You can rely on us to provide you with the most reliable and up-to-date solutions.</p>
+
+          <p>We pride ourselves on being at the forefront of innovation. Our commitment to staying current with the latest trends and technologies ensures that you always receive cutting-edge solutions.</p>
+
+         
+      
+          <li>
+
+            <a href="#" class="btn">Learn More</a>
+
+          </li>
+
+        </div>
+
+          <div class="About2-img">
+
+            <img src="./assets/images/6222537.jpg" alt="">
+
+          </div>
+    
+  </div>
+    
+</section>
+
+
+<!--stats section-->
+<section class="stats" id="stats-section">
+  <div class="heading">
+
+    <span>our current stats</span>
+
+      <h2>
+        We bring solutions to make life easier for our clients.
+      </h2>
+
+  </div>
+
+  <div class="stats-div">
+
+    <ul class="stats-card"> 
+      <li>
+        <p>
+          <span class="num">4535</span>
+          <span class="content">Completed Projects</span>
+        </p>
+      </li>
+      <li>
+        <p>
+          <span class="num">5446</span>
+          <span class="content">Happy Customers</span>
+        </p>
+      </li>
+      <li>
+        <p>
+          <span class="num">4566</span>
+          <span class="content">Expert Employees</span>
+        </p>
+      </li>
+      <li>
+        <p>
+          <span class="num">4578</span>
+          <span class="content">Awards Won</span>
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+<!--blog section-->
+<section  id="Blog">
+  <div class="heading">
+
+    <span>case studies</span>
+
+      <h2>
+        Check out some of our awesome projects with creative ideas and great design.
+      </h2>
+
+  </div>
+    <div class="blog-card">
+
+        <div class="blog-image">
+            <img src="./assets/images/5484597.jpg" alt="Blog Image">
+        </div>
+
+        <div class="blog-content " >
+              <h2 class="blog-title">We believe in personalized service</h2>
+                <p class="blog-description">We believe in personalized service. Our dedicated team works closely with each client to understand their unique needs and deliver solutions that fit like a glove.</p>
+                <a href="#" class="read-more">Read More</a>
+        </div>
+
+
+        <div class="blog-image">
+            <img src="./assets/images/8401.jpg" alt="Blog Image">
+        </div>
+
+        <div class="blog-content">
+              <h2 class="blog-title">We believe in personalized service</h2>
+              <p class="blog-description">We believe in personalized service. Our dedicated team works closely with each client to understand their unique needs and deliver solutions that fit like a glove.</p>
+              <a href="#" class="read-more">Read More</a>
+        </div>
+
+        <div class="blog-image">
+          <img src="./assets/images/Work_7.jpg" alt="Blog Image">
+        </div>
+
+        <div class="blog-content">
+                <h2 class="blog-title">We believe in personalized service</h2>
+                <p class="blog-description">We believe in personalized service. Our dedicated team works closely with each client to understand their unique needs and deliver solutions that fit like a glove.</p>
+                <a href="#" class="read-more">Read More</a>
+        </div>
+
+        <div class="blog-image">
+          <img src="./assets/images/5484597.jpg" alt="Blog Image">
+        </div>
+
+        <div class="blog-content">
+                <h2 class="blog-title">We believe in personalized service</h2>
+                <p class="blog-description">We believe in personalized service. Our dedicated team works closely with each client to understand their unique needs and deliver solutions that fit like a glove.</p>
+                <a href="#" class="read-more">Read More</a>
+        </div>
+    </div>
+</section>
+
+      <!-- Contact-section -->
+
+<section class="contact-section" id="contact">
+
+  <div class="contact-form">
+            <h2>Contact Us</h2>
+      <form action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" autocomplete="given-name" required>
+          <input type="email" name="email" placeholder="Your Email"autocomplete="off" required>
+          <textarea name="message" placeholder="Your Message"  required></textarea>
+          <button type="submit">Send</button>
+      </form>
+  </div>
+
+</section>
+
+<!--footer section-->
+<section  class="footer" >
+      <div class="footer-content">
+            <a href="#" class="logo"><img src="./assets/images/clipart1844855.png" alt="">
+                <p style="margin-left: 5px;">TechDrive</p>
+            </a>
+
+            <p><i class="bx bx-copyright"></i> 2023 techdrive.all rights reserved.</p>
+   
+            <div class="icons">
+                  <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                  <a href="#"><i class='bx bxl-twitter' ></i></a>
+                  <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                  <a href="#"><i class='bx bxl-youtube' ></i></a>
+            </div>
+      </div>
+
+      <div class="footer-content">
+        <h4>Company</h4>
+            <li><a href="#"> About Us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+       
+      </div>
+    
+      <div class="footer-content">
+        <h4>Products</h4>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Contact</a></li>
+    
+      </div>
+      <div class="footer-content">
+        <h4>Resources</h4>
+            <li><a href="#">FAQ&lsquo;S</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+   
+      </div>
+      <div class="footer-content">
+        <h4>Relevent</h4>
+            <li><a href="#">Why</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#"> Customers</a></li>
+      
+      </div>
+
+  
+</section> 
+
+<button  id="back-to-top-button"><i class="bx bxs-up-arrow-circle"></i></button>
+    <script src="./assets/js/script.js"></script>
+  </body>
+  </html>
