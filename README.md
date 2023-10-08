@@ -3,7 +3,7 @@
 
 # Landing_page
 
-I am pleased to inform you that I have successfully completed my first task as an intern at CodSoft. I would like to take this opportunity to provide a professional overview of the task and its outcomes.
+I am pleased to inform you that I have successfully completed my first task at CodSoft. I would like to take this opportunity to provide a professional overview of the task and its outcomes.
 
  - [visit here-live site](https://tamiltechdrive.github.io/landing_page_at_codsoft/)
 ## Screenshots
